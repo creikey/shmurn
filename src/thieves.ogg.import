@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/thieves.ogg-b1003946544286a5162bcad59f5d72ad.oggstr"
+
+[deps]
+
+source_file="res://thieves.ogg"
+dest_files=[ "res://.import/thieves.ogg-b1003946544286a5162bcad59f5d72ad.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
