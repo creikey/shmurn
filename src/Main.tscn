@@ -30,3 +30,4 @@ script = ExtResource( 4 )
 stream = ExtResource( 3 )
 volume_db = -11.367
 autoplay = true
+[connection signal="area_entered" from="Player" to="Player" method="_on_Player_area_entered"]

@@ -14,3 +14,8 @@ func _physics_process(delta):
 	global_position += Vector2(horizontal, vertical)*400.0*delta
 	global_position.x = clamp(global_position.x, 0.0, get_viewport().size.x)
 	global_position.y = clamp(global_position.y, 0.0, get_viewport().size.y)
+
+
+func _on_Player_area_entered(area):
+	if area.is_in_group("zombies"):
+		get_tree().change_scene("res://Lose.tscn")
