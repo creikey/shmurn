@@ -1,3 +1,5 @@
+# Keys
+*.priv
 
 # Godot-specific ignores
 .import/
