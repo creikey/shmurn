@@ -12,8 +12,8 @@ func _physics_process(delta):
 		rotation = movement_vector.angle()
 	
 	global_position += Vector2(horizontal, vertical)*400.0*delta
-	global_position.x = clamp(global_position.x, 0.0, get_viewport().size.x)
-	global_position.y = clamp(global_position.y, 0.0, get_viewport().size.y)
+	global_position.x = clamp(global_position.x, 0.0, 1000)
+	global_position.y = clamp(global_position.y, 0.0, 700)
 
 
 func _on_Player_area_entered(area):
